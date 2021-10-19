@@ -1,0 +1,6 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Alter\source\repos\cuda_test_2\cuda_test_2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Alter\source\repos\cuda_test_2\cuda_test_2\kernel.cu" 
+  kernel.cu
+C:/Users/Alter/source/repos/cuda_test_2/cuda_test_2/kernel.cu(113): warning C4244: аргумент: преобразование "unsigned __int64" в "unsigned int", возможна потеря данных
+  cuda_test_2.vcxproj -> C:\Users\Alter\source\repos\cuda_test_2\x64\Debug\cuda_test_2.exe
